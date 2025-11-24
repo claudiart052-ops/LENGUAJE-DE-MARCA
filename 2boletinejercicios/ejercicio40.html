@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EJERCICIO</title>
+    <meta name="description" content="Ejercicio1 boletin">
+    <meta name="keywords" content="html, ejercicio, ejercicio1, ejemplo">
+    <meta name="author" content="Claudia">
+    <meta name="application-name" content="ejercicio1.html">
+    <meta name="generator" content="VSCode">
+</head>
+<body>
+    <h1>Rellena tu CV</h1>
+    <p>  Datos Personales</p>
+    <form method="post" action="/send/">
+        Provincia<br>
+        <select>
+            <option value="null" disabled selected>selecciona</option>
+            <option value="1">Cádiz</option>
+            <option value="2">Almeria</option>
+            <option value="3">Huelva</option>
+        </select>
+
+    </form>
+    <p>Fecha de nacimiento</p>
+    <form method="post" action="/send/">
+        <input type="number" name="" value=""> de
+        <select>
+            <option value="1">Enero</option>
+            <option value="2">Febrero</option>
+            <option value="3">Marzo</option>
+            <option value="4">Abril</option>
+            <option value="5">Mayo</option>
+        </select> de
+        <input type="" name="" value="">
+    </form>
+    <p>Temas de interes</p>
+    <form method="post" action="/send/">
+        <select multiple>
+            <option value="1">Administracion de base de datos</option>
+            <option value="2">Analisis y programacion</option>
+            <option value="3">Arquitectura</option>
+            <option value="4">Calidad</option>
+            <option value="5">ERP, CRM, Business Intelligence</option>
+        </select>
+    </form>
+</body>
+</html>
